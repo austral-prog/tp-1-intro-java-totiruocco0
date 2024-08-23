@@ -4,37 +4,49 @@ public class App {
 
     // 1. Sum of Two Integers
     public int sum(int a, int b) {
-        // TODO: Implement this method
-        return 0;
+        int c = a + b;
+        return c;
     }
 
     // 2. Check Even or Odd
     public boolean isEven(int number) {
         // TODO: Implement this method
-        return false;
+        if (number % 2 == 0){
+        return true;
+        }else{
+            return false;
+        }
     }
 
     // 3. Maximum of Two Numbers
     public int max(int a, int b) {
         // TODO: Implement this method
-        return 0;
+        if (a > b){
+            return a;
+        }else{
+            return b;
+        }
+
     }
 
     // 4. Factorial of a Number
     public int factorial(int n) {
         // TODO: Implement this method
-        return 0;
+        if (n == 1){
+            return 1;
+        }
+        return n * factorial(n - 1);
     }
 
     // 5. Count Characters in a String
     public int countChars(String input) {
-        // TODO: Implement this method
-        return 0;
+        int t = input.length();
+        return t;
     }
 
     // 6. Reverse a String
     public String reverse(String input) {
-        // TODO: Implement this method
+
         return "";
     }
 
